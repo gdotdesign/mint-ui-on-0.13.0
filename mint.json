@@ -1,0 +1,26 @@
+{
+  "name": "mint-ui-on-0.13.0",
+  "application": {
+    "head": "assets/head.html",
+    "title": "mint-ui-on-0.13.0",
+    "icon": "assets/favicon.png"
+  },
+  "external": {
+    "stylesheets": [
+      "assets/style.css"
+    ]
+  },
+  "source-directories": [
+    "source"
+  ],
+  "dependencies": {
+    "mint-ui": {
+      "repository": "https://github.com/mint-lang/mint-ui",
+      "constraint": "mint-0.13.0:1.6.0"
+    },
+    "mint-color": {
+      "repository": "https://github.com/mint-lang/mint-color",
+      "constraint": "mint-0.13.0:0.4.0"
+    }
+  }
+}
